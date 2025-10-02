@@ -9,7 +9,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="h-full">
-      <body>
+      <body className="m-0">
         <Navbar />
         <main className="flex-1">{children}</main>
         <Footer />
